@@ -1,0 +1,4 @@
+condition,objective_value,acetate_mmol_gDW_hr,acetate_flux,propionate_mmol_gDW_hr,propionate_flux,butyrate_mmol_gDW_hr,butyrate_flux
+StachysDose_High,133.91166666666672,8.0,-8.0,2.8,0.0,1.6,-1.6
+StachysDose_Mid,84.31166666666668,4.0,-4.0,1.4,0.0,0.8,-0.8
+StachysDose_Low,59.51166666666665,2.0,-2.0,0.7,0.0,0.4,-0.4
