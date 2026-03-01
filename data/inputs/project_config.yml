@@ -1,0 +1,22 @@
+project:
+  name: "Stachys affinis stachyose -> SCFA -> host metabolism"
+  independent_variable: "Stachys affinis-derived stachyose dose"
+  conditions:
+    - StachysDose_Low
+    - StachysDose_Mid
+    - StachysDose_High
+
+human_model:
+  sbml_path: "data/models/Recon3D.xml.gz"
+
+host_simulation:
+  oxygen_uptake: 100.0
+  glucose_uptake: 1.0
+  amino_acid_uptake: 0.01
+  vitamin_uptake: 0.01
+  objective:
+    prefer_biomass: false
+    prefer_atp_maintenance: true
+
+outputs:
+  merged_results_csv: "results/merged_dose_scfa_host.csv"

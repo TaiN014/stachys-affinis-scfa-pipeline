@@ -1,0 +1,16 @@
+name: stachys-scfa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - pip:
+    - cobra
+    - python-libsbml
+    - rich
+    - pyyaml
